@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerman Harvest</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--
+    broken link for stars icons
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    we use link below instead
+    -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <header class="header" id="contact-page-header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/kerman-logo.png" width="125px">
+                    </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#products">Products</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+        </div>
+    </header>
+
+<!------- account-page -------->
+    <main>
+        <div class="contact-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 rotate-img">
+                        <img src="images/pistachio-main.png" width="100%">
+                    </div>
+                    <div class="col-2">
+                        <div class="form-container">
+                            <div class="form-btn">
+                                <span>contact us</span>
+                            </div>
+                            <form>
+                                <label for="name">Name:</label>
+                                <br>
+                                <input type="text" id="name" name="name" required>
+                                <br>
+                                <label for="email">Email:</label>
+                                <br>
+                                <input type="email" id="email" name="email" required>
+                                <br>
+                                <label for="message">Message:</label>
+                                <br>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+
+                                <button class="btn" type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13780.514644650153!2d57.070252049401894!3d30.29039866048955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f021851dbb1d0d1%3A0xcd1f7455f5d78eb6!2sKerman%2C%20Kerman%20Province%2C%20Iran!5e0!3m2!1sen!2sau!4v1702727764719!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!------- footer -------->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <a href="index.html">
+                        <img src="images/white-logo.png">
+                    </a>
+                    <p>Harvesting Excellence, Nurturing Taste: 
+                    Our Commitment to Making Exceptional Flavors Accessible to All.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - kerman Harvest</p>
+        </div>
+    </footer>
+
+</body>
+</html>
